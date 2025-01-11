@@ -3,9 +3,12 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-body{
+
+body {
     background-color: #F1F1F3;
+    margin: 20px 160px 0px 160px;
 }
+
 /* shared styles */
 .regular {
     font-family: "Fira Sans", serif;
@@ -19,6 +22,7 @@ body{
     font-weight: 500;
     font-style: normal;
 }
+
 .semibold {
     font-family: "Fira Sans", serif;
     font-weight: 600;
@@ -38,77 +42,88 @@ body{
     background-color: #C6E4D6;
     background-size: 1280px;
     border-radius: 24px;
-    margin: 20px 160px 0px 160px; 
+    /* margin: 20px 160px 0px 160px;  */
 }
-.banner-name{
+
+.banner-name {
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
 }
-.banner-title{
+
+.banner-title {
     font-size: 56px;
     /* color: rgba(14, 14, 14, 1); */
 }
-.banner-button{
+
+.banner-button {
     background-color: #006A50;
     color: #FFFFFF;
     padding: 17px 34px;
     border-style: none;
     border-radius: 8px;
 }
-.banner-heading{
+
+.banner-heading {
     display: none;
     margin-left: 60px;
     margin-top: 117px;
     margin-bottom: 20px;
 }
-.banner-img{
+
+.banner-img {
     width: 100%;
 }
+
 /* vision of future section */
-.future-vision-section{
-    margin: 80px 160px 80px 160px;
-}
-.vision-title{
+.vision-title {
     font-size: 40px;
 }
-.vision-subtitle{
+
+.vision-subtitle {
     font-size: 16px;
 }
-.vision-cardbox{
+
+.vision-cardbox {
     display: flex;
     width: 1280px;
     justify-content: space-around;
     gap: 24px;
     margin-top: 32px;
 }
-.cardbox-1{
+
+.cardbox-1 {
     background-color: #81B4FC;
     width: 410px;
     border-radius: 16px;
     padding: 32px 32px 32px 32px;
 }
-.cardbox-2{
+
+.cardbox-2 {
     background-color: #C6E4D6;
     width: 410px;
     border-radius: 16px;
     padding: 32px 32px 32px 32px;
 }
-.cardbox-3{
+
+.cardbox-3 {
     background-color: #F7EBCF;
     width: 410px;
     border-radius: 16px;
     padding: 32px 32px 32px 32px;
 }
-.cardbox-name{
+
+.cardbox-name {
     font-size: 23px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
-    
+
 }
-.cardbox-description{
+
+.cardbox-description {
     color: rgba(14, 14, 14, 0.7);
 }
-.cardbox-1-btn{
+
+.cardbox-1-btn {
     background-color: #5490F5;
     color: #FFFFFF;
     padding: 11px 20px 11px 20px;
@@ -116,7 +131,8 @@ body{
     border-radius: 8px;
     font-size: 16px;
 }
-.cardbox-2-btn{
+
+.cardbox-2-btn {
     background-color: #09A15C;
     color: #FFFFFF;
     padding: 11px 20px 11px 20px;
@@ -124,7 +140,8 @@ body{
     border-radius: 8px;
     font-size: 16px;
 }
-.cardbox-3-btn{
+
+.cardbox-3-btn {
     background-color: #FFC239;
     color: #FFFFFF;
     padding: 11px 20px 11px 20px;
@@ -132,3 +149,84 @@ body{
     border-radius: 8px;
     font-size: 16px;
 }
+
+/* recent news section */
+/* .recent-news-section{
+
+} */
+.news-title {
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.news-subtitle {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+.news-cardbox-1 {
+    display: flex;
+    border-radius: 24px;
+    border-width: 1280px;
+    background-color: #FFFFFF;
+}
+.news-cardbox-2 {
+    margin-top: 24px;
+    display: flex;
+    border-radius: 24px;
+    border-width: 1280px;
+    background-color: #FFFFFF;
+    flex-direction: row-reverse;
+}
+
+.news-heading {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    /* color: rgba(14, 14, 14, 0.9); */
+    color: black;
+}
+
+.news-icon {
+    width: 134px;
+}
+
+.date-time {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    display: flex;
+    gap:  12px;
+}
+.news-description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-button{
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    padding: 13px 26px;
+    /* border-width: 139px; */
+}
+.cardbox-heading{
+    padding: 56px 48px 56px 32px;
+}
+.cardbox-heading-2{
+    padding: 56px 32px 56px 48px;
+}
+.news-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-img-container{
+    border-radius: 24px;
+    padding: 48px 0px 48px 48px;
+}
+.news-img-container-2{
+    border-radius: 24px;
+    padding: 48px 48px 48px 48px;
+}
+
