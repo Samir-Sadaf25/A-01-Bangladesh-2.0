@@ -1,7 +1,6 @@
 .work-sans-font {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
-    /* font-style: normal; */
 }
 
 body {
@@ -38,11 +37,12 @@ body {
 }
 
 /* Banner Section */
-.banner-containers {
+.banner {
+    display: flex;
+    border-width: 1280px;
     background-color: #C6E4D6;
-    background-size: 1280px;
     border-radius: 24px;
-    /* margin: 20px 160px 0px 160px;  */
+    justify-content: space-between;
 }
 
 .banner-name {
@@ -55,6 +55,10 @@ body {
     /* color: rgba(14, 14, 14, 1); */
 }
 
+.bnr-img {
+    margin: 80px 60px 80px 64px;
+}
+
 .banner-button {
     background-color: #006A50;
     color: #FFFFFF;
@@ -63,15 +67,14 @@ body {
     border-radius: 8px;
 }
 
-.banner-heading {
-    display: none;
-    margin-left: 60px;
-    margin-top: 117px;
-    margin-bottom: 20px;
+.banner-button:hover {
+    background-color: darkseagreen;
 }
 
-.banner-img {
-    width: 100%;
+.banner-container {
+    padding-left: 60px;
+    padding-top: 117px;
+    padding-bottom: 117px;
 }
 
 /* vision of future section */
@@ -150,10 +153,42 @@ body {
     font-size: 16px;
 }
 
-/* recent news section */
-/* .recent-news-section{
+.cardbox-1-btn:hover {
+    background-color: thistle;
+}
 
-} */
+.cardbox-2-btn:hover {
+    background-color: #FFC239;
+}
+
+.cardbox-3-btn:hover {
+    background-color: salmon;
+}
+
+/* dr. Yonus Section */
+.quotes-section {
+    border-width: 1280px;
+    background-color: white;
+    padding: 48px 24px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    border-radius: 16px;
+}
+
+.yonus-quotes {
+    font-size: 16px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 25px 0px 0px 24px;
+
+}
+
+.yonus-div {
+    background-size: contain;
+}
+
+/* recent news section */
+
 .news-title {
     font-size: 40px;
     color: #0E0E0E;
@@ -171,6 +206,7 @@ body {
     border-width: 1280px;
     background-color: #FFFFFF;
 }
+
 .news-cardbox-2 {
     margin-top: 24px;
     display: flex;
@@ -184,8 +220,11 @@ body {
     margin-top: 20px;
     font-size: 32px;
     font-weight: bold;
-    /* color: rgba(14, 14, 14, 0.9); */
     color: black;
+}
+
+.news-button:hover {
+    background-color: goldenrod;
 }
 
 .news-icon {
@@ -196,91 +235,104 @@ body {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     display: flex;
-    gap:  12px;
+    gap: 12px;
 }
+
 .news-description {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-.news-button{
+
+.news-button {
     background-color: #006A50;
     color: white;
     border-radius: 8px;
     border-style: none;
     padding: 13px 26px;
-    /* border-width: 139px; */
 }
-.cardbox-heading{
+
+.cardbox-heading {
     padding: 56px 48px 56px 32px;
 }
-.cardbox-heading-2{
+
+.cardbox-heading-2 {
     padding: 56px 32px 56px 48px;
 }
-.news-img{
+
+.news-img {
     width: 408px;
     height: 306px;
     border-radius: 24px;
 }
-.news-img-container{
+
+.news-img-container {
     border-radius: 24px;
     padding: 48px 0px 48px 48px;
 }
-.news-img-container-2{
+
+.news-img-container-2 {
     border-radius: 24px;
     padding: 48px 48px 48px 48px;
 }
+
 /* donate section */
-.donate-section{
+.donate-section {
     text-align: center;
     margin-top: 80px;
-    
+
 }
-.donate-title{
+
+.donate-title {
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
 }
-.donate-subtitle{
+
+.donate-subtitle {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-.donate-amount-section{
+
+.donate-amount-section {
     display: flex;
-    /* justify-content: space-around; */
-    /* border-width: 1071px; */
     justify-content: center;
     margin-top: 32px;
-    
 }
-.taka{
+
+.taka {
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
-    /* padding: 40px 40px 40px 40px; */
     padding: 0px 40px 0px 40px;
 }
-.donate-amount{
-    /* border-width: 80px; */
-    /* background-size: 100px; */
+
+.donate-amount {
     margin-right: 24px;
     background-color: white;
     border-radius: 16px;
     gap: 24px;
 }
-.donate-200{
+
+.donate-amount:hover {
+    background-color: rgba(198, 228, 214, 1);
+    cursor: pointer;
+}
+
+.donate-200 {
     margin-right: 24px;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 16px;
     gap: 24px;
 }
-.taka-200{
+
+.taka-200 {
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
-    /* padding: 40px 40px 40px 40px; */
     padding: 0px 40px 0px 40px;
 }
-.donatebox>textarea{
+
+.donatebox>textarea {
     width: 1032px;
     border-style: none;
     align-items: center;
@@ -291,8 +343,10 @@ body {
     padding-bottom: 20px;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.3);
+    resize: none;
 }
-.done-btn{
+
+.done-btn {
     background-color: rgba(0, 106, 80, 1);
     background-size: 151px;
     padding: 17px 34px;
@@ -301,4 +355,66 @@ body {
     color: white;
     font-size: 18px;
 
+}
+
+.done-btn:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+/* newsletter-section */
+.newsletter-section {
+    border-width: 1280px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+    align-content: center;
+    height: 395px;
+    margin-top: 80px;
+}
+
+.newsletter-heading {
+    font-size: 40px;
+}
+
+.newsletter-subtitle {
+    font-size: 16px;
+    text-wrap: wrap;
+}
+
+.area-div>textarea {
+    width: 600px;
+    border-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    resize: none;
+    margin-left: 200px;
+}
+
+.area-div {
+    display: flex;
+    justify-content: center;
+    margin-left: 265px;
+    margin-right: 500px;
+}
+
+.sub-btn {
+    background-color: rgba(0, 106, 80, 1);
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.sub-btn:hover{
+    background-color: skyblue;
+}
+.not-spam{
+    font-size: 16px;
+    margin-left: 285px;
+    margin-right: 420px;
 }
